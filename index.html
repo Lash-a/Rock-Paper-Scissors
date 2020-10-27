@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="navigation">
+            <h1><a id="reset" href="#">Rock Paper Scissors<span>click here to reset game</span></a></h1>
+        </nav>
+
+        <section class="names"> 
+            <div class="mini-cont">
+                <h2 class="margin-right" id="player">Player</h2>
+                <p id="player-score">0</p>
+            </div>
+            <div class="mini-cont">
+                <h2 class="margin-right" id="draw">Draw</h2>
+                <p id="draw-score">0</p>
+            </div>
+           <div class="mini-cont">
+                <h2 id="computer">Computer</h2>
+                <p id="computer-score">0</p>
+           </div>
+           
+        </section>
+
+        <section class="start-screen">
+            <h2>Rock Paper and Scissors</h2>
+            <button id="game-start">Let's Play</button>
+        </section>
+
+        <div class="game">
+            <h2 id="check-who-won">Choose an option</h2>
+
+            <div class="image-container">
+                <img id="player-img" style="transform: rotateY(180deg);" src="img/rock.png" alt="rock"> 
+                <img id="computer-img" src="img/rock.png" alt="rock">
+            </div>
+            <div class="btn-container">
+                <button id="rock-btn" class="button-style">ROCK</button>
+                <button id="paper-btn" class="button-style">PAPER</button>
+                <button id="scissors-btn" class="button-style">SCISSORS</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
